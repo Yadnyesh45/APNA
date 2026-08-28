@@ -6,7 +6,7 @@
 body {
     background-color: rgb(7, 0, 0);
     color: white;
-    
+
 }
 
 nav {
@@ -16,6 +16,11 @@ nav {
     color: white;
     height: 100px;
     background-color: rgb(5, 5, 21);
+
+}
+
+.capital {
+    color: rgb(165, 103, 222);
 
 }
 
@@ -31,28 +36,26 @@ nav {
     font-size: large;
 }
 
-nav ul {
+/* nav ul {
 
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-nav ul li {
+/* nav ul li {
     list-style: none;
     margin: 23px;
-}
+} */
 
-nav ul li:hover {
+/* nav ul li:hover {
     color: rgb(165, 103, 222);
     font-size: x-large;
-}
+} */
 
 .first-section {
     display: flex;
     justify-content: space-around;
-
-
 }
 
 .head {
@@ -114,7 +117,7 @@ hr {
     background-color: rgb(121, 60, 173);
     color: white;
     border-radius: 6px 6px 6px 6px;
-    padding: 6px; 
+    padding: 6px;
     cursor: pointer;
 }
 
@@ -123,7 +126,7 @@ hr {
     padding: 6px;
     background-color: rgb(121, 60, 173);
     color: white;
-    border-radius: 6px 6px 6px 6px; 
+    border-radius: 6px 6px 6px 6px;
     cursor: pointer;
 }
 
@@ -140,16 +143,15 @@ hr {
 
 }
 
-.boxes 
- {
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-  margin-left: -105px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  height: 45vh;
-  font-size: larger;
-  gap: 108px;
+.boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: -105px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 45vh;
+    font-size: larger;
+    gap: 108px;
 }
 
 .box-down1 img {
@@ -190,11 +192,12 @@ hr {
 }
 
 .border-verti {
-    border: 1px solid rgb(51, 51, 93);;
+    border: 1px solid rgb(51, 51, 93);
+    ;
     height: 12vh;
     width: 0.1px;
     margin-top: -1px;
-  margin-left: -229px;
+    margin-left: -229px;
 }
 
 .container {
@@ -208,14 +211,17 @@ hr {
     width: 80vw;
     margin: 40px auto 0;
 }
-.last-section{
+
+.last-section {
     background-color: rgb(5, 5, 21);
     height: 12vh;
 }
-.foot{
+
+.foot {
     margin-left: 250px;
     margin-top: 12vw;
 }
+
 #butt {
     padding: 2px 5px;
     font-size: 1.2rem;
@@ -224,6 +230,99 @@ hr {
     background-color: rgb(121, 60, 173);
     color: white;
     cursor: pointer;
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+
+
+#homeBtn {
+    color: white;
+    background: none;
+    border: none;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+#aboutBtn {
+    color: white;
+    background: none;
+    border: none;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+
+#skillsBtn {
+    color: white;
+    background: none;
+    border: none;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+#contactBtn {
+    color: white;
+    background: none;
+    border: none;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+#homeBtn:hover,
+#aboutBtn:hover,
+#skillsBtn:hover,
+#contactBtn:hover {
+    color: rgb(165, 103, 222);
+    font-size: x-large;
+}
+
+#about {
+    margin-left: 18vw;
+    font-family: cursive;
+}
+
+#skills {
+    margin-left: 18vw;
+    font-family: cursive;
+
+
+
+}
+
+#contact {
+    margin-left: 18vw;
+    font-family: cursive;
+
+
+}
+
+hr {
+    border: none;
+    background-color: #3b3b62;
+    height: 1.5px;
+    margin: 40px 84px;
+    margin-top: 40px;
+    margin-right: 168px;
+    margin-bottom: 40px;
+    margin-left: 227px;
+}
+
+third-section,
+h2 {
+    color: rgb(165, 103, 222);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 
